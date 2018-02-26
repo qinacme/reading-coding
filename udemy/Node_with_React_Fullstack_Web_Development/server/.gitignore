@@ -58,3 +58,8 @@ node_modules/
 ####################
 sftp-config*
 *.sublime-*
+
+# keys #
+########
+keys.js
+package-lock.json

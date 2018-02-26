@@ -50,7 +50,27 @@ OAuth Flow
 Passport.js Library  
 passport + passport strategy(specific OAuth provider)
 
+Go to https://console.developers.google.com/
+Create project -> Create API(Google+) -> Get credential
+
+ClientID: Identify the App.
+ClientSecret: Get info from the App. DON'T SHARE IT! DON'T PUSH TO GITHUB!
+
+Create config/keys.js, store keys there.
+
+Config passport -> Create callback handler -> Config callbackURL on googleAPI
+
 ## Adding MongoDB
+
+Using cookie-based authentication.
+
+MongoDB: collections -> records: json/javascript object  
+schemeless: with a collection, records can have different structure
+
+Mongoose: Module Class -> collection  
+ Module Instance -> record
+
+Create MongoDB instance on https://mlab.com
 
 ## Dev vs Prod Environments
 
@@ -69,3 +89,7 @@ passport + passport strategy(specific OAuth provider)
 ## Handling Webhook Data
 
 ## The Home Stretch
+
+# TODOs
+
+1. Try to use local MongoDB. Try to deploy the app onto Digtal Ocean.
